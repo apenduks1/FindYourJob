@@ -1,0 +1,35 @@
+.sub_title {
+  color: #111238;
+  text-align: center;
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+sub p {
+  color: #111238;
+  text-align: center;
+  font-size: 18px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+}
+.sub_imput {
+  border-radius: 5px;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(15, 17, 56, 0.1);
+  width: 290px;
+  height: 70px;
+}
+.sub_btn {
+    border-radius: 5px;
+background:  #1A75E8;
+padding: 15px 30px;
+}

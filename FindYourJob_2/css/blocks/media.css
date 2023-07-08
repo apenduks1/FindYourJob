@@ -1,0 +1,55 @@
+@media (min-width: 320px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+}
+  .categorios_title {
+    text-align: center;
+  }
+  
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .footer_title {
+    text-align: center;
+  }
+}
+@media (min-width: 760px) {
+  .container {
+    max-width: 720px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .header_menu {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+  .header_box {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

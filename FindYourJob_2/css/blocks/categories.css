@@ -1,0 +1,40 @@
+.categorios_title {
+  color:  #111238;
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 147px;
+}
+.categories_btn {
+  border-radius: 10px;
+  background:  #f2f3f6;
+  border: none;
+  padding: 35px 55px;
+  width: 165px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color:  #111238;
+  text-align: center;
+  font-size: 16px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+  gap: 10px;
+}
+.categorios_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.categories_btn:hover, .categories_btn:hover path {
+  border-radius: 10px;
+  background: var(--buttons-primary, #1a75e8);
+  color: #ffffff;
+  fill: #ffffff;
+}

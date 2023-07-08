@@ -1,0 +1,41 @@
+.footer_list1 p {
+  display: flex;
+  justify-content: center;
+}
+.footer_list {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  height: 281px;
+}
+.p {
+  color: var(--inputs-grey, #b2b2b2);
+  font-size: 12px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  color: var(--text-primary, #111238);
+  font-size: 16px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.foter_info {
+  color: var(--text-primary, #111238);
+  font-size: 16px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
